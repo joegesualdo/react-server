@@ -3,9 +3,8 @@
   "version": "0.0.1",
   "description": "Quickly start react server.",
   "repository": "joegesualdo/react-server",
-  "main": "./dist/index.js",
+  "main": "./index.js",
   "scripts": {
-    "prepublish": "npm run build",
     "build": "./node_modules/distify-cli/cli.js --input-file=./index.js --output-dir=./dist --is-node"
   },
   "keywords": [

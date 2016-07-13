@@ -1,3 +1,5 @@
-const ReactServer = require('./../dist');
+const ReactServer = require('./../index.js');
 
-ReactServer.start(__dirname + "/index.jsx", 'assets/bundle.js');
+let server = new ReactServer();
+
+server.start("./examples/index.jsx", 'assets/bundle.js');
